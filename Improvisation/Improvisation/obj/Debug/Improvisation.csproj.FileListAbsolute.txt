@@ -1,0 +1,9 @@
+C:\Users\antoi\Desktop\GIT_IMPRO\Improvisation\Improvisation\bin\Debug\Improvisation.exe.config
+C:\Users\antoi\Desktop\GIT_IMPRO\Improvisation\Improvisation\bin\Debug\Improvisation.exe
+C:\Users\antoi\Desktop\GIT_IMPRO\Improvisation\Improvisation\bin\Debug\Improvisation.pdb
+C:\Users\antoi\Desktop\GIT_IMPRO\Improvisation\Improvisation\obj\Debug\Improvisation.csprojResolveAssemblyReference.cache
+C:\Users\antoi\Desktop\GIT_IMPRO\Improvisation\Improvisation\obj\Debug\Improvisation.Form1.resources
+C:\Users\antoi\Desktop\GIT_IMPRO\Improvisation\Improvisation\obj\Debug\Improvisation.Properties.Resources.resources
+C:\Users\antoi\Desktop\GIT_IMPRO\Improvisation\Improvisation\obj\Debug\Improvisation.csproj.GenerateResource.Cache
+C:\Users\antoi\Desktop\GIT_IMPRO\Improvisation\Improvisation\obj\Debug\Improvisation.exe
+C:\Users\antoi\Desktop\GIT_IMPRO\Improvisation\Improvisation\obj\Debug\Improvisation.pdb
