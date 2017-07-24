@@ -28,47 +28,62 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
+            this.b_mixte = new System.Windows.Forms.Button();
+            this.b_comp = new System.Windows.Forms.Button();
+            this.Type = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
-            // button1
+            // b_mixte
             // 
-            this.button1.Location = new System.Drawing.Point(472, 60);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "Mixte";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.b_mixte.Location = new System.Drawing.Point(472, 35);
+            this.b_mixte.Name = "b_mixte";
+            this.b_mixte.Size = new System.Drawing.Size(75, 23);
+            this.b_mixte.TabIndex = 0;
+            this.b_mixte.Text = "Mixte";
+            this.b_mixte.UseVisualStyleBackColor = true;
+            this.b_mixte.Click += new System.EventHandler(this.b_mixte_Click);
             // 
-            // button2
+            // b_comp
             // 
-            this.button2.Location = new System.Drawing.Point(553, 60);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 23);
-            this.button2.TabIndex = 1;
-            this.button2.Text = "Comparée";
-            this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
+            this.b_comp.Location = new System.Drawing.Point(553, 35);
+            this.b_comp.Name = "b_comp";
+            this.b_comp.Size = new System.Drawing.Size(75, 23);
+            this.b_comp.TabIndex = 1;
+            this.b_comp.Text = "Comparée";
+            this.b_comp.UseVisualStyleBackColor = true;
+            this.b_comp.Click += new System.EventHandler(this.b_comp_Click);
+            // 
+            // Type
+            // 
+            this.Type.AutoSize = true;
+            this.Type.Location = new System.Drawing.Point(535, 70);
+            this.Type.Name = "Type";
+            this.Type.Size = new System.Drawing.Size(0, 13);
+            this.Type.TabIndex = 2;
+            this.Type.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Type.Visible = false;
+            this.Type.Click += new System.EventHandler(this.Type_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1277, 462);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.Type);
+            this.Controls.Add(this.b_comp);
+            this.Controls.Add(this.b_mixte);
             this.Name = "Form1";
             this.Text = "Form1";
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
         #endregion
 
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button b_mixte;
+        private System.Windows.Forms.Button b_comp;
+        private System.Windows.Forms.Label Type;
     }
 }
 

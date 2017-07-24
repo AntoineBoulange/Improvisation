@@ -18,33 +18,27 @@ namespace Improvisation
             InitializeComponent();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void b_comp_Click(object sender, EventArgs e)
         {
-
+            Type.Text = "Comparée";
+            Type.Visible = true;
+            b_comp.Visible = false;
+            b_mixte.Visible = false;
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        private void b_mixte_Click(object sender, EventArgs e)
         {
-
+            Type.Text = "Mixte";
+            Type.Visible = true;
+            b_comp.Visible = false;
+            b_mixte.Visible = false;
         }
 
-        protected override void OnPaint(PaintEventArgs e)
+        private void Type_Click(object sender, EventArgs e)
         {
-            Point[] pointsArray =
-            {
-                new Point(50, 0),
-                new Point(450, 0),
-                new Point(440, 10),
-                new Point(430, 20),
-                new Point(70, 20),
-                new Point(60, 10)
-            };
-
-            GraphicsPath poly = new GraphicsPath();
-            poly.AddPolygon(pointsArray);
-
-            Pen border = new Pen(Color.LightBlue, 4);
-            e.Graphics.DrawPolygon(border, pointsArray);
+            Type.Visible = false;
+            b_comp.Visible = true;
+            b_mixte.Visible = true;
         }
     }
 }
