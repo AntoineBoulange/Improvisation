@@ -40,5 +40,10 @@ namespace Improvisation
             b_comp.Visible = true;
             b_mixte.Visible = true;
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
