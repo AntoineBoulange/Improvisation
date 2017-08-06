@@ -36,7 +36,7 @@
             // Type
             // 
             this.Type.AutoSize = true;
-            this.Type.Location = new System.Drawing.Point(713, 86);
+            this.Type.Location = new System.Drawing.Point(694, 30);
             this.Type.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Type.Name = "Type";
             this.Type.Size = new System.Drawing.Size(40, 17);
@@ -49,7 +49,7 @@
             // b_mixte
             // 
             this.b_mixte.AutoSize = true;
-            this.b_mixte.Location = new System.Drawing.Point(657, 64);
+            this.b_mixte.Location = new System.Drawing.Point(573, 63);
             this.b_mixte.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.b_mixte.Name = "b_mixte";
             this.b_mixte.Size = new System.Drawing.Size(40, 17);
