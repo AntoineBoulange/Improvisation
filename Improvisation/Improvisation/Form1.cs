@@ -11,9 +11,9 @@ using System.Drawing.Drawing2D;
 
 namespace Improvisation
 {
-    public partial class Form1 : Form
+    public partial class Principale : Form
     {
-        public Form1()
+        public Principale()
         {
             InitializeComponent();
         }

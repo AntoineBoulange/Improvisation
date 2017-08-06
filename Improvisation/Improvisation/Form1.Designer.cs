@@ -1,6 +1,6 @@
 ﻿namespace Improvisation
 {
-    partial class Form1
+    partial class Principale
     {
         /// <summary>
         /// Variable nécessaire au concepteur.
@@ -36,9 +36,10 @@
             // Type
             // 
             this.Type.AutoSize = true;
-            this.Type.Location = new System.Drawing.Point(535, 70);
+            this.Type.Location = new System.Drawing.Point(713, 86);
+            this.Type.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Type.Name = "Type";
-            this.Type.Size = new System.Drawing.Size(31, 13);
+            this.Type.Size = new System.Drawing.Size(40, 17);
             this.Type.TabIndex = 2;
             this.Type.Text = "Type";
             this.Type.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -48,9 +49,10 @@
             // b_mixte
             // 
             this.b_mixte.AutoSize = true;
-            this.b_mixte.Location = new System.Drawing.Point(493, 52);
+            this.b_mixte.Location = new System.Drawing.Point(657, 64);
+            this.b_mixte.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.b_mixte.Name = "b_mixte";
-            this.b_mixte.Size = new System.Drawing.Size(32, 13);
+            this.b_mixte.Size = new System.Drawing.Size(40, 17);
             this.b_mixte.TabIndex = 3;
             this.b_mixte.Text = "Mixte";
             this.b_mixte.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -59,24 +61,26 @@
             // b_comp
             // 
             this.b_comp.AutoSize = true;
-            this.b_comp.Location = new System.Drawing.Point(582, 51);
+            this.b_comp.Location = new System.Drawing.Point(776, 63);
+            this.b_comp.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.b_comp.Name = "b_comp";
-            this.b_comp.Size = new System.Drawing.Size(55, 13);
+            this.b_comp.Size = new System.Drawing.Size(73, 17);
             this.b_comp.TabIndex = 4;
             this.b_comp.Text = "Comparée";
             this.b_comp.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.b_comp.Click += new System.EventHandler(this.b_comp_Click);
             // 
-            // Form1
+            // Principale
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1051, 553);
+            this.ClientSize = new System.Drawing.Size(1401, 681);
             this.Controls.Add(this.b_comp);
             this.Controls.Add(this.b_mixte);
             this.Controls.Add(this.Type);
-            this.Name = "Form1";
-            this.Text = "Form1";
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Name = "Principale";
+            this.Text = "Improvisation théâtrale : Les Improsteurs";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
